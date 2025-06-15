@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-with open (r"Olx_WagonR_Scraping/database/tab_dict.pkl","rb") as file:
+with open (r"database/tab_dict.pkl","rb") as file:
     f = pickle.load(file=file)
 
 df = pd.DataFrame(f )
@@ -267,9 +267,9 @@ df['Price'] = df['Price'].astype(int)
 
 df['KM driven'] = df['KM driven'].apply(lambda i : int(np.floor(i/1000)*1000) if i>1000 else 1000)
 
-df = df.groupby(['Year','Location','Variant','Fuel','KM driven'])['Price'].agg(['count','mean'])
+# df = df.groupby(['Year','Location','Variant','Fuel','KM driven'])['Price'].agg(['count','mean'])
 
-df.to_csv('Olx_WagonR_Scraping/database/WagonR_DB_Cleaned.csv')
+df.to_csv('database/WagonR_DB_Cleaned1.csv')
   
 
     
