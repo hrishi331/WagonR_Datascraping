@@ -1,10 +1,10 @@
 # WagonR_Datascraping
 
 ## Info
-This project lest you filter out data along with analysis of filtered data.
+This project helps you filter out data along with analysis of filtered data as output.
 Please contact me for application.
 
-## Sequence of execution 
+## Sequence of execution (for coding reference)
 ### 1. Execute <base.py>
 This file extracts 40 pages from renowned classifieds website for wagon r in state of maharashtra databse.
 Packages used are :
