@@ -1,7 +1,12 @@
 # WagonR_Datascraping
+
+## Info
+This project lest you filter out data along with analysis of filtered data.
+Please contact me for application.
+
 ## Sequence of execution 
 ### 1. Execute <base.py>
-This file extracts 40 pages from olx website for wagon r databse.
+This file extracts 40 pages from renowned classifieds website for wagon r in state of maharashtra databse.
 Packages used are :
 - requests
 - datetime
