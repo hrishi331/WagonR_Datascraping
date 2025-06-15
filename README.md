@@ -14,8 +14,7 @@ Note:
 
 ### 3. How to use .csv table to estimate resale value
 1. Open .csv file in excel
-2. Apply auto filters. Refer following link. [https://support.microsoft.com/en-us/office/use-autofilter-to-filter-your-data-7d87d63e-ebd0-424b-8106-e2ab61133d92]
-    2.1 In case you dont find your make year choose nearest one.
+2. Apply auto filters. Refer following link. [https://support.microsoft.com/en-us/office/use-autofilter-to-filter-your-data-7d87d63e-ebd0-424b-8106-e2ab61133d92].In case you dont find your make year choose nearest one.
 3. From fileters filter out your make year from first column. In case you dont find your make year, choose nearest one.
 4. Filter out your variant. Choose nearest one in case you dont find any.
 5. Filter out your fueltype from fuel column.
