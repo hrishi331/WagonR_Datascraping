@@ -26,3 +26,8 @@ Note:
 6. Filter out your car's Km driven by choosing nearest value.
 7. Now mean column will give you mean price for selected filters.  
 
+## Prediction model
+1. Although the project has prediction application which shows prediction on test data, you can clearly see that data is insufficiant in quantity for model to be successfull. 
+2. Lot of classes from features are single in number. Which is not desirable.
+3. Hence instead of prediction model , statistical analysis gives clearer idea.
+
